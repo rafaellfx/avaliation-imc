@@ -10,7 +10,7 @@ import Foundation
 
 struct HttpValuations {
 
-    private static let pathServer = "http://rafaellfx.com.br/api-ios/valuations/"
+    private static let pathServer = "http://localhost/api-ios/valuations/"
     
     private static let configuration: URLSessionConfiguration = {
         let config = URLSessionConfiguration.default
